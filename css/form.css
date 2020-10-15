@@ -1,0 +1,28 @@
+form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .form-row {
+    display: flex;
+  }
+  .form-row button {
+    flex: auto;
+    margin-left: 10px;
+  }
+  .badge {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    display: inline-block;
+    background: #f6f7fa;
+    padding: 4px 8px;
+    border-radius: 2px;
+    margin-left: .5em;
+    position: relative;
+    top: -1px;
+  }
+  .errors {
+    color: red;
+    margin: 10px 0 0;
+    font-size: 12px;
+  }
